@@ -63,7 +63,7 @@
     <p>Résoudre l'équation : x² - 7x + 6 = 0</p>
     <div class="quiz">
       <input id="q2" type="text" placeholder="Votre réponse" />
-      <button onclick="checkAnswer('q2','2,3')">Vérifier</button>
+      <button onclick="checkAnswer('q2','1,6')">Vérifier</button>
       <div id="rq2" class="quiz-result"></div>
     </div>
   </section>
@@ -138,7 +138,7 @@ function checkAnswer(id, correctAnswer) {
 
 function revealSolutions() {
   const all = [
-    ['q1','2x+3'], ['q2','2,3'], ['q3','11'],
+    ['q1','2x+3'], ['q2','1,6'], ['q3','11'],
     ['q6','0.4'], ['q7','55']
   ];
   all.forEach(([id, ans]) => {
